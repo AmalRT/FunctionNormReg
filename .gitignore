@@ -98,4 +98,16 @@ ENV/
 /site
 
 # mypy
-.mypy_cache/
+.mypy_cachE
+
+#pycharm project
+.xml
+.iml
+
+A
+A
+D
+D
+D
+i
+/
