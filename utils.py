@@ -174,7 +174,7 @@ def write(path, flag='w'):
         f.close()
 
 
-def pil_grid(images, max_horiz=sys.maxint):
+def pil_grid(images, max_horiz=sys.maxsize):
     n_images = len(images)
     n_horiz = min(n_images, max_horiz)
     h_sizes, v_sizes = [0] * n_horiz, [0] * -(-n_images // n_horiz)

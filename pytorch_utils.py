@@ -10,7 +10,7 @@ import six
 from torch.autograd import Variable
 import numpy as np
 import utils
-import cPickle as pickle
+import pickle
 from datetime import datetime
 from collections import OrderedDict, namedtuple
 
