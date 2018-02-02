@@ -31,7 +31,7 @@ except TypeError:
 
 def pkl_dump(obj, path):
     with utils.write(path, 'wb') as f:
-        pickle.dump(obj, f, protocol=pickle.HIGHEST_PROTOCOL)
+        pickle.dump(obj, f, protocol=2)
 
 
 def pkl_load(filename):
