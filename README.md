@@ -53,11 +53,12 @@ We also provide some utils needed in our training code (see utils.py and pytorch
 
 ## Citation
 ```bibtex
-@article{RannenTriki2017stochastic,
-  title={Stochastic Weighted Function Norm Regularization},
-  author={Rannen Triki, Amal and Berman, Maxim and Blaschko, Matthew B},
-  journal={arXiv preprint arXiv:1710.06703},
-  year={2017}
+@inproceedings{rannen2019function,
+  title={Function norms for neural networks},
+  author={Rannen-Triki, Amal and Berman, Maxim and Kolmogorov, Vladimir and Blaschko, Matthew B},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops},
+  pages={0--0},
+  year={2019}
 }
 
 ```
